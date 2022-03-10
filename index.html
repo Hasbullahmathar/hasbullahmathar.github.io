@@ -1,26 +1,67 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<TITLE>Myprofile</TITLE>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script type="text/javascript" src="https://kit.fontawesome.com/e25b852c87.js" crossorigin="anonymous"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
-</head>
-<body>
-	<div class="container">
-		<div class="profile"></div>
-		<div class="text">
-			<p id="name"><span class="font-Roboto">Hasbullah Mathar</span></p>
-			<p class="content font-Roboto">Graphic Designer/Ui-Ux Designer</p>
-			<p class="content about">Hi there, im bullah, junior design graphic focusing heavily on product development <br> and  interactiive design. Based in indonesia.</p>
-			<div class="links">
-				<a href="https://www.behance.net/hasbullahmathar"><i class="fa fa-behance" aria-hidden="true"></i></a>
-				<a href="https://www.facebook.com/hasbullah.mathar.7/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-				<a href="https://github.com/Hasbullahmathar"><i class="fa fa-github" aria-hidden="true"></i></a>
-			</div>
-		</div>
-	</div>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="https://kit.fontawesome.com/e25b852c87.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <title>Contact Card</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-bio">
+          <div class="img-wrapper">
+            <img src="images/profile.jpg" alt="Person" />
+          </div>
+          <div class="person-info">
+            <h3>Hasbullah Mathar</h3>
+            <p>Hi there, im junior design graphic focusing heavily on product development.</p>
+          </div>
+          <button class="card-btn">
+            <span class="card-btn-contact">Contact Me</span>
+            <i class="fas fa-angle-up"></i>
+          </button>
+        </div>
+        <div class="card-contact">
+          <h4>Contact Me</h4>
+        </div>
+        <div class="card-social email">
+          <div class="icon-wrapper">
+            <i class="fa fa-behance"></i>
+          </div>
+          <div class="contact-details">
+            <h4>behance</h4>
+            <p>hasbullahmathar</p>
+          </div>
+          <span>></span>
+        </div>
+        <div class="card-social fb">
+          <div class="icon-wrapper">
+            <i class="fa fa-facebook"></i>
+          </div>
+          <div class="contact-details">
+            <h4>Facebook</h4>
+            <p>Hasbullahmathar</p>
+          </div>
+          <span>></span>
+        </div>
+        <div class="card-social linkedin">
+          <div class="icon-wrapper">
+            <i class="fa fa-github"></i>
+          </div>
+          <div class="contact-details">
+            <h4>Github</h4>
+            <p>Hasbullahmathar</p>
+          </div>
+          <span>></span>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
 </html>
